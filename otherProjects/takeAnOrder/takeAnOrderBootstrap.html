@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kyle Ritchie's "Take An Order Bootstrap"</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/takeAnOrder.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="row">
+            <div class="col-sm-12 banner">
+                <h1 class="header">2016 Nissan GT-R</h1>
+
+
+            </div>
+
+            <!-- ends row div -->
+        </div>
+
+        <hr>
+        <div class="row right">
+
+            <h4 class="titleFont">Nissan's Spokespersons Have This To Say About The GT-R:</h4>
+            <div class="media review-box">
+                <div class="media-body">
+                    <h3 class="media-heading">Weight Distribution <a><span class="label label-primary label-as-badge">Kazutoshi Mizuno - Chief Engineer</span></a><br></h3>
+                    <p>&quot;This year brings about many changes to the car. What has stayed the same however is the perfect 47/53 front to rear weight distribution.&quot;</p>
+                    <hr>
+                    <h4 class="media-heading">0 - 60 Time <a><span class="label label-primary label-as-badge">Carlos Ghosn - CEO of Nissan</span></a><br></h4>
+                    <p>&quot;This year's GT-R is once again one of the fastest production cars in the world. Enjoy accelerating from 0 to 100km/h in under 2.5 seconds - perfect for when stuck in snow!&quot;</p>
+                    <hr>
+                    <h4 class="media-heading">Culture <a><span class="label label-primary label-as-badge">Shiro Nakamura - Chief Creative Officer</span></a><br></h4>
+                    <p>&quot;This year's GT-R is styled more aggressively than ever. These sharp edges and bulky body pay tribute to the popular mech robots of Japanese comics, etc.&quot;</p>
+                </div>
+
+                <!-- customer review div ends -->
+            </div>
+            <div class="col-sm-6">
+                <img class="gtrBootstrap" src="images/gtr.png" />
+                <p class="caption">Starting MSRP: $101,770</p>
+            </div>
+        </div>
+
+        <div class="row left rightBorder">
+            <div class="col-sm-6">
+                <div id="placeAnOrderBootStrap">
+                    <h2 class="titleFont">Order Forum:</h2>
+
+
+                    <input id="mySingleLineText" class="form-control" type="text" placeholder="enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your name'"><span class="hide-name">*</span>
+                    <br>
+                    <br>
+
+
+                    <textarea id="myTextArea" class="form-control" rows="10" cols="50" placeholder="enter your delivery address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your delivery address'"></textarea><span class="hide-address">*</span>
+                    <br>
+                    <br>
+                    <h2>Quantity:</h2>
+
+                    <select class="form-control" id="mySelect">
+                        <option value="1" selected> 1 </option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">+ 10</option>
+
+                    </select>
+                    <br>
+
+                    <div id="mySelectMessage"></div>
+                    <br>
+                    <br>
+                    <h2>Free Options</h2>
+                    <div class="radio">
+                        <img class="img-mini" src="images/Amber.png">
+                        <input type="radio" name="gender" value="Amber" checked> Red Amber Premium Interior Package
+                        <br>
+                        <br>
+                        <img class="img-mini" src="images/Ivory.png">
+                        <input type="radio" name="gender" value="Ivory"> Ivory Premium Interior Package
+                        <br>
+                        <br>
+                        <!-- ends radio div -->
+                    </div>
+
+                    <h2>Accessories</h2>
+                    <img class="img-g" src="images/caps.png">
+                    <input type="checkbox" name="vehicle" value="Caps" checked> Nissan Valve Stem Caps ($20)
+                    <br>
+                    <br>
+                    <img class="img-L" src="images/mats.png">
+                    <input type="checkbox" name="vehicle" value="Mats"> Carpeted Floor Mats ($258)
+                    <br>
+                    <br>
+                    <img class="img-s" src="images/cover.png">
+                    <input type="checkbox" name="vehicle" value="Cover"> Vehicle Storage Cover - Silver ($399)
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Brake Upgrades</h2>
+
+                    <img class="img-carbon" src="images/carbon.jpg">
+                    <input type="checkbox" name="vehicle" value="Carbons"> Alpha Performance r35 GT-R Carbon Ceramics ($12,700)
+                    <br>
+                    <br>
+                    <img class="img-stainless" src="images/stainless.jpg">
+                    <input type="checkbox" name="vehicle" value="Stainless"> Goodridge: Stainless Steel Brake Line Kit  ($360)
+                    <br>
+                    <br>
+
+
+                    <button id="chainButton" type="button" class="btn btn-default">Click to Chain order</button>
+                    <br>
+                    <br>
+
+
+                    <button id="myButton" type="button" class="btn btn-default">Click to place order</button>
+                    <br>
+                    <br>
+
+
+                    <!--ends placeAnOrder div-->
+                </div>
+                <!-- col-sm-5 ends -->
+            </div>
+            <!--row div ends -->
+        </div>
+
+
+        <div class="col-sm-6 right dotBorder">
+            <div id="log">
+                <p class="recieptBootstrap">Reciept:</p>
+            </div>
+        </div>
+
+
+
+
+        <!-- ends wrapper div -->
+    </div>
+    <script src="js/takeAnOrder.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kyle Ritchie's "Take An Order Regular"</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/takeAnOrder.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="banner">
+            <!-- header with image as background -->
+            <h1 class="header">2016 Nissan GT-R</h1>
+            
+        </header>
+        <div id="placeAnOrder">
+            <h2>Catalogue</h2>
+            <!-- placeholder text is used so when the user clicks on the text field the pre-existing text disappears -->
+            <!--hide-name class shows an * when the user forgets to enter in text (this will display after the alert) and helps the user find which field they forgot to fill out -->
+            <input id="mySingleLineText" type="text" placeholder="enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your name'"><span class="hide-name">*</span>
+            <br>
+            <br>
+
+            <!-- placeholder text is used so when the user clicks on the text field the pre-existing text disappears -->
+            <!--hide-address class shows an * when the user forgets to enter in text (this will display after the alert) and helps the user find which field they forgot to fill out -->
+            <textarea id="myTextArea" rows="10" cols="50" placeholder="enter your delivery address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your delivery address'"></textarea><span class="hide-address">*</span>
+            <br>
+            <br>
+            <h2>Quantity:</h2>
+            <select id="mySelect">
+                <option value="1" selected> 1 </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">+ 10</option>
+
+            </select>
+            <br>
+
+            <div id="mySelectMessage"></div>
+            <br>
+            <br>
+            <h2>Free Options</h2>
+            <img class="img-mini" src="images/Amber.png">
+            <input type="radio" name="gender" value="Amber" checked> Red Amber Premium Interior Package
+            <br>
+            <br>
+            <img class="img-mini" src="images/Ivory.png">
+            <input type="radio" name="gender" value="Ivory"> Ivory Premium Interior Package
+            <br>
+            <br>
+			 <br>
+            <br>
+			
+            <h2>Accessories</h2>
+            <img class="img-g" src="images/caps.png">
+            <input type="checkbox" name="vehicle" value="Caps"> Nissan Valve Stem Caps ($20)
+            <br>
+            <br>
+            <img class="img-L" src="images/mats.png">
+            <input type="checkbox" name="vehicle" value="Mats"> Carpeted Floor Mats ($258)
+            <br>
+            <br>
+            <img class="img-s" src="images/cover.png">
+            <input type="checkbox" name="vehicle" value="Cover"> Vehicle Storage Cover - Silver ($399)
+            <br>
+            <br>
+			 <br>
+            <br>
+            <h2>Brake Upgrades</h2>
+            <img class="img-carbon" src="images/carbon.jpg">
+            <input type="checkbox" name="vehicle" value="Carbons"> Alpha Performance r35 GT-R Carbon Ceramics ($12,700)
+            <br>
+            <br>
+            <img class="img-stainless" src="images/stainless.jpg">
+            <input type="checkbox" name="vehicle" value="Stainless"> Goodridge: Stainless Steel Brake Line Kit  ($360)
+            <br>
+            <br>
+            <!--chainButton is to be used when the user enters in the value + 10, the alert will guide the user through the process of place 2 different orders instead of one large order -->
+            <button id="chainButton" type="button">Click to Chain order</button>
+            <br>
+            <br>
+
+
+            <button id="myButton" type="button">Click to place order</button>
+            <br>
+            <br>
+
+
+            <!--ends placeAnOrder div-->
+        </div>
+        <img class="gtr" src="images/gtr.png" />
+        <p class="caption">Starting MSRP: $101,770*</p>
+        <div id="log">
+            <p class="reciept">Reciept:</p>
+        </div>
+
+
+        <!-- ends wrapper div -->
+    </div>
+    <script src="js/takeAnOrder.js"></script>
+</body>
+
+</html>
