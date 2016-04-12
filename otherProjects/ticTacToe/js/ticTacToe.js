@@ -2,7 +2,13 @@ $(document).ready(function () {
 
     var circleOrEx = "o"; // who gets first turn, right now circle goes first
     var isGameInProgress = true; // when the document loads, the tictactoe board is an active game
-    var winningCombos = { // the game board is a series of nine square boxes, but since this is an array, the values for earch box is 0 to 8.  these values outline the winning combinations starting from each possible square on the board.
+    var winningCombos = { // the game board is a series of nine square boxes, but since this is an array, the values for earch box is 0 to 8.  these values outline the winning combinations starting from each possible square on the board.  the board is writen out like this:
+
+        // 0 | 1 | 2  
+        // ---------  
+        // 3 | 4 | 5
+        // ---------
+        // 6 | 7 | 8
 
         0: [ //0 is key (winning combinations starting from the top left square)
       [1, 2], //if the user enters in three of the same values across the top three squares, they win
@@ -95,9 +101,9 @@ $(document).ready(function () {
         var mulitArr = winningCombos[chosenSquare];
         var playerWon;
 
-        for (var i = 0; i < mulitArr.length; i++) { //the loop provides the length of the multi array
+        for (var i = 0; i < mulitArr.length; i++) { //the nested loop provides the length of the multidimensional array
             playerWon = true;
-            for (var j = 0; j < mulitArr[i].length; j++) { 
+            for (var j = 0; j < mulitArr[i].length; j++) { //value of j starts at zero so the user must enter three values within a winning combination.  If j initially starts at 1 user only needs to match two of the same values within a winning combination.  If j => 2 the user only needs to match one value of a winning combination (which would be any square on the board) 
                 if (!$("#board").find("div").eq(mulitArr[i][j]).find("span").hasClass(circleOrEx)) { //Explain this condition
                     playerWon = false;
                 }
@@ -108,10 +114,10 @@ $(document).ready(function () {
                 for (var j = 0; j < mulitArr[i].length; j++) {
                     $("#board").find("div").eq(mulitArr[i][j]).find("." + circleOrEx).addClass("green"); //makes the first two inputs of the winning comination the color green
                 }
-                $("#board").find("div").eq(chosenSquare).find("." + circleOrEx).addClass("green"); //makes the last input of the winning combination the color green
+                $("#board").find("div").eq(chosenSquare).find("." + circleOrEx).addClass("green"); //makes the last         input of the winning combination (chosenSquare) the color green
                 alert("Winner is " + circleOrEx.toUpperCase() + "!"); //alert "Winner is X" or "Winner is O"
                 isGameInProgress = false; //since a player has won, the game is no longer in progress
-                return false; //exit loop
+                return false; //this exits the loop
             }
         }
 

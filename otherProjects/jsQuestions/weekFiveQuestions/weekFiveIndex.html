@@ -6,7 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Week Five jsQuestions</title>
-
+    <!-- link to custom favicon -->
+    <link rel="icon" href="../../../images/Jay.ico" />
 </head>
 
 <body>
@@ -32,28 +33,28 @@
                         <pre>
             Question 1:
                 function getTriangle(){
-                
+
                 var str = "";
-                    
+
                 for (var i=1; i<=6; i++){
-              
-            
+
+
                 for(var j=1; j<=i;j++){
-            
-                    str = str + "#"; 
+
+                    str = str + "#";
                     }
                     str = str + "<br>";
                     }
-                
-           
+
+
                 $("#q1-result").html(str);
                 }
-                
+
                  $("#q1-button").on("click", function(){
                     getTriangle();
-              
+
                     });
-        
+
           </pre>
                     </div>
                     <div class="col-md-12">
@@ -72,27 +73,27 @@
                     <div class="col-md-12">
                         <pre>
           Question 2 code
-             
+
   function printFooBar(){
       var print = "";
       var number = Number (1);
         for (var i = Number(1); i < 100; i++) {
-          // document.write( number + i + "<br>"); 
-        
+          // document.write( number + i + "<br>");
+
         if (i%3==0 && i%5==0){
                 print = print + "FooBar" + "<br>";
                   }
-            
+
         else if (i%3==0){
                 print = print + "Foo" + "<br>";
                 }
-            
-            
-            
+
+
+
         else if (i%5==0){
             print = print + "Bar" + "<br>";
             }
-                 
+
         else{
             print = print + i + "<br>";
             }
@@ -115,7 +116,7 @@
                     <div class="col-md-12">
                         <pre>
           Question 3 code:
-          
+
  function chessBoard() {
         var size = prompt("How long would you like the side to be?");
               if (isNaN(size)) {
@@ -131,7 +132,7 @@
         }
 
         for (i = 1; i <= size; i++) {
-          if ((i+j) % 2 === 0) { 
+          if ((i+j) % 2 === 0) {
             print = print + (' ' + line) + "<br/>";
           } else {
             print = print + (line) + "<br/>";
@@ -229,7 +230,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
 
 
                     var arr = [];
-                 
+
 
 
                     if (lowLimit <= upLimit) {
@@ -252,7 +253,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
 
                     //ends range function
                 }
-                            
+
           </pre>
                     </div>
                     <div class="col-md-12">
@@ -368,7 +369,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
 
                     //since this is an odd number of variables in the array valueC is not swapped with anything
 
-                    //iarr reprints an array with the swapped values 
+                    //iarr reprints an array with the swapped values
                     var iarr = new Array(valueA, valueB, valueC, valueD, valueE);
           </pre>
                     </div>
@@ -416,7 +417,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
                     var print = "";
                     var number = Number(1);
                     for (var i = Number(1); i < 100; i++) {
-                        // document.write( number + i + "<br>"); 
+                        // document.write( number + i + "<br>");
 
                         if (i % 3 == 0 && i % 5 == 0) {
                             print = print + "FooBar" + "<br>";
@@ -476,7 +477,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
                     $("#q4-result").html("B count is:" + " " + numUpper);
                 });
 
-                //Question 5 Starts 
+                //Question 5 Starts
                 var countK = "kakkerlak";
 
                 var numLower = countK.replace(/[^k]/g, '').length;
@@ -543,7 +544,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
                     } else {
                         $("#q6-result").html("Answer is: " + rangeAnswer);
                     }
-                    //ends click function        
+                    //ends click function
                 });
 
                 //Question 7 STARTS
@@ -581,7 +582,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
 
                     $("#q7-result").html("Answer is: " + sum);
 
-                    //ends click function        
+                    //ends click function
                 });
 
 
@@ -620,7 +621,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
                     reverseArray();
 
 
-                    //ends click function 
+                    //ends click function
                 });
 
 
@@ -656,7 +657,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
 
                     //since this is an odd number of variables in the array valueC is not swapped with anything
 
-                    //iarr reprints an array with the swapped values 
+                    //iarr reprints an array with the swapped values
                     var iarr = new Array(valueA, valueB, valueC, valueD, valueE);
 
 
@@ -673,7 +674,7 @@ document.write('k count is',':' , " ", countChar.replace(/[^k]/g, "").length);
                     swapArray();
 
 
-                    //ends click function 
+                    //ends click function
                 });
 
                 //ends document ready function
