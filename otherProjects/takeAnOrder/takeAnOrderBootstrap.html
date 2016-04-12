@@ -3,12 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Take An Order Bootstrap</title>
+    <title>Kyle Ritchie's "Take An Order Bootstrap"</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <!-- link to custom favicon -->
-    <link rel="icon" href="../../images/Jay.ico" />
 
     <link rel="stylesheet" href="css/takeAnOrder.css">
 </head>
@@ -17,43 +15,42 @@
     <div id="wrapper">
         <div class="row">
             <div class="col-sm-12 banner">
-                <h1 class="header">Gamezone: Love, Live, Game.</h1>
+                <h1 class="header">2016 Nissan GT-R</h1>
 
 
             </div>
 
             <!-- ends row div -->
         </div>
-        <p
 
         <hr>
         <div class="row right">
 
-            <h2 class="titleFont">F.A.Q </h2>
+            <h4 class="titleFont">Nissan's Spokespersons Have This To Say About The GT-R:</h4>
             <div class="media review-box">
                 <div class="media-body">
-                    <h4 class="media-heading">Is There a Warranty? <a><span class="label label-primary label-as-badge">Jim Johnson.</span></a><br></h4>
-                    <p>&quot;No, all sales are final and we are not responsible for lost or damaged items..&quot;</p>
+                    <h3 class="media-heading">Weight Distribution <a><span class="label label-primary label-as-badge">Kazutoshi Mizuno - Chief Engineer</span></a><br></h3>
+                    <p>&quot;This year brings about many changes to the car. What has stayed the same however is the perfect 47/53 front to rear weight distribution.&quot;</p>
                     <hr>
-                    <h4 class="media-heading">Do you ship outside the Continental U.S? <a><span class="label label-primary label-as-badge">Karl Kush</span></a><br></h4>
-                    <p>&quot;Unfortunately not Karl.&quot;</p>
+                    <h4 class="media-heading">0 - 60 Time <a><span class="label label-primary label-as-badge">Carlos Ghosn - CEO of Nissan</span></a><br></h4>
+                    <p>&quot;This year's GT-R is once again one of the fastest production cars in the world. Enjoy accelerating from 0 to 100km/h in under 2.5 seconds - perfect for when stuck in snow!&quot;</p>
                     <hr>
-                    <h4 class="media-heading">What kind of discounts do you offer? <a><span class="label label-primary label-as-badge"> Killa Mike</span></a><br></h4>
-                    <p>&quot;We offer a price match guarantee for all major competitors. If you find it cheaper, we'll match it.&quot;</p>
+                    <h4 class="media-heading">Culture <a><span class="label label-primary label-as-badge">Shiro Nakamura - Chief Creative Officer</span></a><br></h4>
+                    <p>&quot;This year's GT-R is styled more aggressively than ever. These sharp edges and bulky body pay tribute to the popular mech robots of Japanese comics, etc.&quot;</p>
                 </div>
 
-                <!-- faq ends -->
+                <!-- customer review div ends -->
             </div>
             <div class="col-sm-6">
-                <img class="ps4Bootstrap" src="images/ps4.jpg" />
-                <p class="caption">Base Price: $399.99 CAD</p>
+                <img class="gtrBootstrap" src="images/gtr.png" />
+                <p class="caption">Starting MSRP: $101,770</p>
             </div>
         </div>
 
         <div class="row left rightBorder">
             <div class="col-sm-6">
                 <div id="placeAnOrderBootStrap">
-                    <h2 class="titleFont">Checkout:</h2>
+                    <h2 class="titleFont">Order Forum:</h2>
 
 
                     <input id="mySingleLineText" class="form-control" type="text" placeholder="enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your name'"><span class="hide-name">*</span>
@@ -84,45 +81,52 @@
                     <div id="mySelectMessage"></div>
                     <br>
                     <br>
-                    <h2>Practical Accesories:</h2>
+                    <h2>Free Options</h2>
                     <div class="radio">
-                        <img src="images/controller.jpg">
-                        <input type="radio" name="gender" value="PS4-Controller" checked> PS4 Controller
+                        <img class="img-mini" src="images/Amber.png">
+                        <input type="radio" name="gender" value="Amber" checked> Red Amber Premium Interior Package
                         <br>
                         <br>
-                        <img class="usb" src="images/USB.png">
-                        <input type="radio" name="gender" value="USB-hub"> USB Multi-Hub
-                        <br>
-                        <br>
-                        <img class="hdmi" src="images/HDMI.jpg">
-                        <input type="radio" name="gender" value="HDMI"> HDMI Cable - $25
+                        <img class="img-mini" src="images/Ivory.png">
+                        <input type="radio" name="gender" value="Ivory"> Ivory Premium Interior Package
                         <br>
                         <br>
                         <!-- ends radio div -->
                     </div>
 
-                    <h2>Leisure Accessories:</h2>
+                    <h2>Accessories</h2>
+                    <img class="img-g" src="images/caps.png">
+                    <input type="checkbox" name="vehicle" value="Caps" checked> Nissan Valve Stem Caps ($20)
+                    <br>
+                    <br>
+                    <img class="img-L" src="images/mats.png">
+                    <input type="checkbox" name="vehicle" value="Mats"> Carpeted Floor Mats ($258)
+                    <br>
+                    <br>
+                    <img class="img-s" src="images/cover.png">
+                    <input type="checkbox" name="vehicle" value="Cover"> Vehicle Storage Cover - Silver ($399)
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Brake Upgrades</h2>
 
-                    <img class="remote" src="images/remote.jpg">
-                    <input type="checkbox" name="vehicle" value="PS4-Remote-Control" checked> PS4 Remote Control
+                    <img class="img-carbon" src="images/carbon.jpg">
+                    <input type="checkbox" name="vehicle" value="Carbons"> Alpha Performance r35 GT-R Carbon Ceramics ($12,700)
                     <br>
                     <br>
-                    <img class="headphones" src="images/headphones.jpg">
-                    <input type="checkbox" name="vehicle" value="PS4-Headphones"> Official PS4 Headphones - $20
-                    <br>
-                    <br>
-                    <img class="keyboard" src="images/keyboard.jpg">
-                    <input type="checkbox" name="vehicle" value="Controller-Keyboard"> PS4 Controller Keyboard - $20
+                    <img class="img-stainless" src="images/stainless.jpg">
+                    <input type="checkbox" name="vehicle" value="Stainless"> Goodridge: Stainless Steel Brake Line Kit  ($360)
                     <br>
                     <br>
 
 
-                    <button id="chainButton" type="button" class="btn btn-default">Click For Multiple Orders</button>
+                    <button id="chainButton" type="button" class="btn btn-default">Click to Chain order</button>
                     <br>
                     <br>
 
 
-                    <button id="myButton" type="button" class="btn btn-default">Click to Order</button>
+                    <button id="myButton" type="button" class="btn btn-default">Click to place order</button>
                     <br>
                     <br>
 
@@ -137,7 +141,7 @@
 
         <div class="col-sm-6 right dotBorder">
             <div id="log">
-                <p class="recieptBootstrap">Order Confirmation:</p>
+                <p class="recieptBootstrap">Reciept:</p>
             </div>
         </div>
 

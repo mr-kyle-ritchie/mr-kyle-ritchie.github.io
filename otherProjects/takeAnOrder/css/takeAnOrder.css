@@ -21,7 +21,7 @@
 
 body {
     margin: 5%;
-    background: dodgerblue;
+    background-image: url(../images/shards.jpg);
     font-family: Helvetica, Arial, Verdana, sans-serif;
     /*color: #e5e5e5; */
     color: black;
@@ -29,8 +29,8 @@ body {
 }
 
 .banner {
-    background-image: url(../images/banner-image.jpg);
-    border: solid white 4px;
+    background-image: url(../images/snow.png);
+    border: black solid 4px;
     height: 150px;
     width: 98%;
     margin: 0 auto;
@@ -38,7 +38,7 @@ body {
 }
 
 .header {
-    color: white;
+    color: black;
     padding-top: 30px;
     margin: 0 auto;
     padding-left: 200px;
@@ -53,48 +53,44 @@ body {
     /*float: right; */
 }
 
-.usb {
+.img-mini {
     background: white;
     height: 175px;
     width: 210px;
 }
 
-.hdmi {
+.img-xlr {
     height: 175px;
     width: 210px;
 }
 
-.img-extension {
+.img-carbon {
     height: 175px;
     width: 210px;
 }
 
-.img-adaptor {
+.img-stainless {
     height: 175px;
     width: 210px;
 }
 
-.remote {
+.img-g {
     height: 175px;
     width: 210px;
 }
 
-.headphones {
+.img-L {
     height: 175px;
     width: 210px;
 }
 
-.keyboard {
+.img-s {
     height: 175px;
     width: 210px;
 }
 
 
-/*
-made two classes
--hide-name
--hide-address
-*/
+/*make two classes hide-name and hide-address */
 
 .hide-name {
     color: red;
@@ -122,15 +118,15 @@ p {
     margin-right: 100px;
     float: left;
     padding: 50px;
-    border: solid black 1px;
+    border: solid black 2px;
     margin: 0 auto;
 }
 
-.ps4 {
+.gtr {
     margin-top: 100px;
     height: 500px;
     width: 500px;
-    borer: solid black 1px;
+    border: solid black 2px;
 }
 
 
@@ -158,7 +154,7 @@ hr {
     border: dotted 1px black;
 }
 
-.Bootstrap {
+.gtrBootstrap {
     height: 500px;
     width: 500px;
     borer: solid black 1px;
@@ -177,7 +173,7 @@ hr {
 .titleFont {
     font-family: 'tall films expanded';
     font-weight: 700;
-    font-size: 42px;
+    font-size: 35px;
 }
 
 .changes {
