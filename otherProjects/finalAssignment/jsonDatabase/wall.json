@@ -88,43 +88,23 @@
 
 		{
 			"deviceImage": "images/devices/e12.jpg",
-			"device": "Gameboy",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
+				"device": "LC 500",
+			"type": "Hybrid",
+			"company": "4 + Driver",
+			"price": "???"
 
 		}, {
 			"deviceImage": "images/devices/gs1000e.jpg",
-			"device": "Gameboy Colour",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
+			"device": "LF-FC",
+			"type": "Hydrogen",
+			"company": "4 + Driver",
+			"price": "???"
 		}, {
 			"deviceImage": "images/devices/rs1i.jpg",
-			"device": "Gameboy Advanced",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
-		}, {
-			"deviceImage": "images/devices/sr60e.jpg",
-			"device": "Gameboy Advanced SP",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
-		}, {
-			"deviceImage": "images/devices/hd650.jpg",
-			"device": "DS",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
-		}, {
-			"deviceImage": "images/devices/samson.jpg",
-			"device": "3DS",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
-
-
+			"device": "LF-SA",
+			"type": "Pure Electric",
+			"company": "4 + Driver",
+			"price": "???"
 		}
 	]
 }
