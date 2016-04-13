@@ -1,111 +1,111 @@
 {
 	"albums": [{
 			"albumImage": "images/consoles/1.jpg",
-			"artist": "Super Nintendo",
+			"artist": “CT”,
 			"albumTitle": "Nintendo",
-			"year": "1990"
+			"year": “2016”
 		},
 
 		{
 			"albumImage": "images/consoles/2.jpg",
-			"artist": "Sega Genesis",
+			"artist": “IS”,
 			"albumTitle": "Sega",
-			"year": "1989"
+			"year": “2016”
 		},
 
 		{
 			"albumImage": "images/consoles/3.jpg",
-			"artist": "Nintendo 64",
+			"artist": “RC”,
 			"albumTitle": "Nintendo",
-			"year": "1996"
+			"year": “2016”
 		},
 
 		{
 			"albumImage": "images/consoles/4.jpg",
-			"artist": "Sega Dreamcast",
+			"artist": “RC F”,
 			"albumTitle": "Sega",
-			"year": "1999"
+			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/5.jpg",
-			"artist": "Playstation",
+			"artist": “ES”,
 			"albumTitle": "Sony",
-			"year": "1995"
+			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/6.jpg",
-			"artist": "Playstation 2",
+			"artist": “GS”,
 			"albumTitle": "Sony",
-			"year": "2000"
+			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/7.jpg",
-			"artist": "XBOX",
+			"artist": “GS F“,
 			"albumTitle": "Microsoft",
-			"year": "2001"
+			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/8.jpg",
-			"artist": "Gamecube",
+			"artist": “LS”,
 			"albumTitle": "Nintendo",
-			"year": "2001"
+			"year": "2016"
 
 		},
 
 		{
 			"albumImage": "images/consoles/9.jpg",
-			"artist": "XBOX 360",
+			"artist": “NX”,
 			"albumTitle": "Microsoft",
 			"year": "2005"
 		},
 
 		{
 			"albumImage": "images/consoles/10.jpg",
-			"artist": "Playstation 3",
+			"artist": “RX”,
 			"albumTitle": "Sony",
 			"year": "2006"
 		},
 
 		{
 			"albumImage": "images/consoles/11.jpg",
-			"artist": "Wii",
+			"artist": “GX”,
 			"albumTitle": "Nintendo",
 			"year": "2006"
 		},
 
 		{
 			"albumImage": "images/consoles/12.jpg",
-			"artist": "Playstation 4",
+			"artist": “LX”,
 			"albumTitle": "Sony",
 			"year": "2014"
 		},
 
 		{
 			"albumImage": "images/consoles/13.jpg",
-			"artist": "XBOX ONE",
+			"artist": “CT 200h“,
 			"albumTitle": "Microsoft",
 			"year": "2013"
 		},
 
 		{
 			"albumImage": "images/consoles/14.jpg",
-			"artist": "Wii U",
+			"artist": “ES 300h”,
 			"albumTitle": "Nintendo",
 			"year": "2012"
 		},
 
 		{
 			"albumImage": "images/consoles/15.jpg",
-			"artist": "NX",
+			"artist": “GS 450h”,
 			"albumTitle": "Nintendo'",
-			"year": "2016?"
+			"year": “???”
 		}, {
 			"albumImage": "images/consoles/16.jpg",
-			"artist": "Playstation 5",
+			"artist": “LS 600h L”,
 			"albumTitle": "Sony",
 			"year": "???"
 		}
@@ -114,43 +114,23 @@
 
 		{
 			"deviceImage": "images/devices/e12.jpg",
-			"device": "Gameboy",
+			"device": “LC 500”,
 			"type": "Handheld",
 			"company": "Nintendo",
 			"price": "$200 CAD"
 
 		}, {
 			"deviceImage": "images/devices/gs1000e.jpg",
-			"device": "Gameboy Colour",
+			"device": “LC 500H“,
 			"type": "Handheld",
 			"company": "Nintendo",
 			"price": "$200 CAD"
 		}, {
 			"deviceImage": "images/devices/rs1i.jpg",
-			"device": "Gameboy Advanced",
+			"device": “LF-FC Concept”,
 			"type": "Handheld",
 			"company": "Nintendo",
 			"price": "$200 CAD"
-		}, {
-			"deviceImage": "images/devices/sr60e.jpg",
-			"device": "Gameboy Advanced SP",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
-		}, {
-			"deviceImage": "images/devices/hd650.jpg",
-			"device": "DS",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
-		}, {
-			"deviceImage": "images/devices/samson.jpg",
-			"device": "3DS",
-			"type": "Handheld",
-			"company": "Nintendo",
-			"price": "$200 CAD"
-
-
 		}
 	]
 }
