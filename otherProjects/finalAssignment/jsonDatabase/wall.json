@@ -1,56 +1,56 @@
 {
 	"albums": [{
 			"albumImage": "images/consoles/1.jpg",
-			"artist": "2016 RC",
+			"artist": "CT",
 			"albumTitle": "5",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/2.jpg",
-			"artist": "Sega Genesis",
+			"artist": "IS",
 			"albumTitle": "Sega",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/3.jpg",
-			"artist": "Nintendo 64",
+			"artist": "RC",
 			"albumTitle": "Nintendo",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/4.jpg",
-			"artist": "Sega Dreamcast",
+			"artist": "RC F",
 			"albumTitle": "Sega",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/5.jpg",
-			"artist": "Playstation",
+			"artist": "ES",
 			"albumTitle": "Sony",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/6.jpg",
-			"artist": "Playstation 2",
+			"artist": "GS",
 			"albumTitle": "Sony",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/7.jpg",
-			"artist": "XBOX",
+			"artist": "GS F",
 			"albumTitle": "Microsoft",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/8.jpg",
-			"artist": "Gamecube",
+			"artist": "LS",
 			"albumTitle": "Nintendo",
 			"year": "2016"
 
@@ -58,29 +58,29 @@
 
 		{
 			"albumImage": "images/consoles/9.jpg",
-			"artist": "XBOX 360",
+			"artist": "NX",
 			"albumTitle": "Microsoft",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/10.jpg",
-			"artist": "Playstation 3",
+			"artist": "RX",
 			"albumTitle": "Sony",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/11.jpg",
-			"artist": "Wii",
+			"artist": "GX",
 			"albumTitle": "Nintendo",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/12.jpg",
-			"artist": "Playstation 4",
-			"albumTitle": "Sony",
+			"artist": "LX",
+			"albumTitle": "8",
 			"year": "2016"
 		},
 
