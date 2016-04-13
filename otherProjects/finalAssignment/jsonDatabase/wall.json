@@ -9,49 +9,49 @@
 		{
 			"albumImage": "images/consoles/2.jpg",
 			"artist": "IS",
-			"albumTitle": "Sega",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/3.jpg",
 			"artist": "RC",
-			"albumTitle": "Nintendo",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/4.jpg",
 			"artist": "RC F",
-			"albumTitle": "Sega",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/5.jpg",
 			"artist": "ES",
-			"albumTitle": "Sony",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/6.jpg",
 			"artist": "GS",
-			"albumTitle": "Sony",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/7.jpg",
 			"artist": "GS F",
-			"albumTitle": "Microsoft",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/8.jpg",
 			"artist": "LS",
-			"albumTitle": "Nintendo",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 
 		},
@@ -59,21 +59,21 @@
 		{
 			"albumImage": "images/consoles/9.jpg",
 			"artist": "NX",
-			"albumTitle": "Microsoft",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/10.jpg",
 			"artist": "RX",
-			"albumTitle": "Sony",
+			"albumTitle": "5 + Driver",
 			"year": "2016"
 		},
 
 		{
 			"albumImage": "images/consoles/11.jpg",
 			"artist": "GX",
-			"albumTitle": "Nintendo",
+			"albumTitle": "7 + Driver",
 			"year": "2016"
 		},
 
