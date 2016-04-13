@@ -82,32 +82,6 @@
 			"artist": "LX",
 			"albumTitle": "8",
 			"year": "2016"
-		},
-
-		{
-			"albumImage": "images/consoles/13.jpg",
-			"artist": "XBOX ONE",
-			"albumTitle": "Microsoft",
-			"year": "2016"
-		},
-
-		{
-			"albumImage": "images/consoles/14.jpg",
-			"artist": "Wii U",
-			"albumTitle": "Nintendo",
-			"year": "2016"
-		},
-
-		{
-			"albumImage": "images/consoles/15.jpg",
-			"artist": "NX",
-			"albumTitle": "Nintendo'",
-			"year": "???"
-		}, {
-			"albumImage": "images/consoles/16.jpg",
-			"artist": "Playstation 5",
-			"albumTitle": "Sony",
-			"year": "???"
 		}
 	],
 	"devices": [
