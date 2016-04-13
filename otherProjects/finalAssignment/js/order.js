@@ -20,98 +20,76 @@ $(document).ready(function() {
       },
       { 'timeFormat': 'H:i A' },
       { 'scrollDefault': 'now' })
-
-   //if url ends with #buyConsultation check the "consultation" box in the services order form   
+  
 if(window.location.href.indexOf("buyConsultation") > -1){
 $('#checkbox1').prop('checked', true);
 } 
     
-    //if url ends with #buyRepairs check the "repairs" box in the services order form
 if(window.location.href.indexOf("buyRepairs") > -1){
 $('#checkbox2').prop('checked', true);
 } 
     
-    //if url ends with #buyInstallation check the "installation" box in the services order form
 if(window.location.href.indexOf("buyInstallation") > -1){
 $('#checkbox3').prop('checked', true);
 } 
 
     
-  //change button text on mouse enter
+
   $("#myButton").on("mouseenter", function() {
       $("#log").append("<br>Button mouseenter");
       $(this).text("complete order");
     })
   
-  //change button text on mouse leave
+
     .on("mouseleave", function() {
       $("#log").append("<br>Button mouseleave");
       $(this).text("order now");
     });
 
 
-  //change the background color on focus to blue
-  //append "name field entered" in the #log area of the page
-  //change field background color to off-white
   $("#mySingleLineText").on("focus", function() {
       $("#log").append("<br>Name field entered");
       $(this).css("background-color", "#F7F8E0");
     })
   
-  //append "name field exited" in the #log area of the page 
-  //change field background to white
     .on("blur", function() {
       $("#log").append("<br>Name field exited");
       $(this).css("background-color", "#FFF");
     });
     
-   //append "e-mail field entered" in the #log area of the page 
-   //change field background color to off-white
     $("#mySingleLineText2").on("focus", function() {
       $("#log").append("<br>E-mail field entered");
       $(this).css("background-color", "#F7F8E0");
     })
     
-    //append "e-mail field exited" in the #log area of the page 
-    //change field background to white
     .on("blur", function() {
       $("#log").append("<br>E-mail field exited");
       $(this).css("background-color", "#FFF");
     });
     
     
-     //append "address field entered" in the #log area of the page 
-    //change field background to off-white
     $("#mySingleLineText3").on("focus", function() {
       $("#log").append("<br>Address field entered");
       $(this).css("background-color", "#F7F8E0");
     })
     
-     //append "address field exited" in the #log area of the page 
-    //change field background to white
     .on("blur", function() {
       $("#log").append("<br>Address field exited");
       $(this).css("background-color", "#FFF");
     });
 
     
-    //append "explanation field entered" in the #log area of the page 
-    //change field background to off-white
     $("#myTextarea").on("focus", function() {
       $("#log").append("<br>Explanation field entered");
       $(this).css("background-color", "#F7F8E0");
     })
     
-    //append "explanation field exited" in the #log area of the page 
-    //change field background to white
     .on("blur", function() {
       $("#log").append("<br>Explanation field exited");
       $(this).css("background-color", "#FFF");
     });
     
-    //hour length of service
   $("#mySelect").on("change", function() {
-    //append "length of service change to: " in the #log area of the page
     var val = $(this).val();
     $("#log").append("<br>Length of service changed to " + val);
     
@@ -224,23 +202,6 @@ $('#checkbox3').prop('checked', true);
         }
       
     $("#log").append("<br>User placed an order");
-
-        
- 
-
-   // $("[name='vehicle']:checked").each(function() {
-   //   userOrder.myCheckValues.push($(this).val());
-   // });
-
-   // $("#rec").append("Name: " + userOrder.myInput);
-    //$("#rec").append("<br>E-mail: " + userOrder.myInput2);  
-    //$("#rec").append("<br>Address: " + userOrder.myInput3);  
-    //$("#rec").append("<br>Explanation: " + userOrder.myTextarea);
-    //$("#rec").append("<br>Duration of service: " + userOrder.mySelect);
-    //$("#rec").append("<br>Services: " + userOrder.myCheckValues.join());
-    //$("#rec").append("<br>E-mailing list: " + userOrder.myRadio + "<br><hr>");
-    
-     // alert("Your order is being proccessed");
       
       
          var order = {};
@@ -292,9 +253,6 @@ $('#checkbox3').prop('checked', true);
 
         var myCheckValues = [];
 
-        //each is a jquery loop for objects/arrays
-        //each thing that is selected, do the function
-        //"this" is the element we are currently looking at
         $("[name='vehicle']:checked").each(function() {
           myCheckValues.push($(this).val());
         });
