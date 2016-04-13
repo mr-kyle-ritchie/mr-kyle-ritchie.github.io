@@ -2,7 +2,7 @@
 	"albums": [{
 			"albumImage": "images/consoles/1.jpg",
 			"artist": "CT",
-			"albumTitle": "5",
+			"albumTitle": "4 + Driver",
 			"year": "2016"
 		},
 
@@ -80,7 +80,7 @@
 		{
 			"albumImage": "images/consoles/12.jpg",
 			"artist": "LX",
-			"albumTitle": "8",
+			"albumTitle": "7 + Driver",
 			"year": "2016"
 		}
 	],
